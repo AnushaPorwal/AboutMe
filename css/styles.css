@@ -8,19 +8,20 @@ body{
 .top-container{
   background-color: #ecf4f3;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 220px;
 }
 
-.bottom-cloud{
+.rightHalf{
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 0;
+  top: 0;
 }
 
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  top: 50px;
+.leftHalf{
+position: absolute;
+right: 0;
+top: 0;
 }
 
 .middle-container{
